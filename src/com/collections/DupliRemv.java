@@ -27,7 +27,7 @@ public class DupliRemv {
 				
 				if(l.get(i).equals(l.get(j))) {
 					l.remove(j);
-					j--;
+					j--;//✔ j-- ensures you re-check the same position after shifting
 					}
 					
 				}

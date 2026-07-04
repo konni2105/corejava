@@ -3,7 +3,7 @@
 FrameWorks=> Instead of developers developing from root/strach,
             using jar files or lib classes to complete the task.
             
-Arrays=>to structuring the data in or anized way
+Arrays=>to structuring the data in organized way
 Variable=> its a container to store single value
 
 
@@ -63,13 +63,41 @@ collection INTERFACES:
   16)comparator -->java.util
   
   marker interfaces:no methods
+  
+  
   17)clonable
   18)serialisable
   19)randomaccess
   
   		             
-		            
-         			       
+	------------------------------------------------------------------
+	List:
+	       - insertion order preserved
+	        -list allows duplicate values  
+	        -list allows both homogeneous & hetrogeneous  data elements without Generics ,if Generic uses we must need to use object class       
+         	-list allows null values any numbr of times                          
+         List implemented classes are:
+               aryList,linkedLst,vector,Stack and CopyOnWriteArrayList
+               
+         methods: get 
+               
+    Set:
+          -set will not allows insertion order.
+          -set will not allows duplicate values.
+          -set allows both homogeneous & hetrogeneous  data elements without Generics ,if Generic uses we must need to use object class.
+               and TreeSet will not allow hetroheneous data elements.
+          -set allow only one null values only once.
+        Set implemented classes are:
+        			HashSet,LinkedHashSet
+     
+     SortedSet:
+     		-child interface of set 
+     		-sortedset implemented treeset for ascending or descending order based on your requirements
+     NavigableSet:
+           - child interface of sortedSet
+           -implements TreeSet
+           -for navigation purpose we use it
+           
 */
 package com.collections;
 
